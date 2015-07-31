@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Boda Abejorros</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimum-scale=1">
+
+    <!-- INCLUDE BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- INCLUDE AUTHOR CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- INCLUDE FLEXSLIDER CSS -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+    <!-- INCLUDE animate CSS -->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- MEGAFOLIO PRO GALLERY CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="megafolio/css/settings.css" media="screen" />
+
+    <!-- THE FANYCYBOX CSS -->
+    <link rel="stylesheet" href="megafolio/fancybox/jquery.fancybox.css?v=2.1.3" type="text/css" media="screen" />
+
+    <!-- INCLUDE GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Cinzel:400,700|Great+Vibes' rel='stylesheet' type='text/css'>        
+
+    <!-- INCLUDE MODERNIZR -->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- GOOGLE MAPS -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqYBi-v6G5U8q1PNz3bgy0g10Un10WjWg"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+
+    <!-- CLOUD ENDPOINTS -->
+<!--     <script src="https://apis.google.com/js/client.js?onload=initEndpoints"></script>
+    <script src="js/endpoints.js"></script> -->
+    <script type="text/html" id="foto-template">
+        <h3 data-bind="text: titulo"> </h3>
+        <p>Credits: <span data-bind="text: descripcion"> </span></p>
+    </script>
+
+</head>
+<body class="index home">
+    <span id="browser-sync-binding"></span>
+    <div class="bghide">&nbsp;</div>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                                The Header Area With The Menu
+    ==============================================================================================================
+    ============================================================================================================== -->  
+
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="names"> Andrea &#38; David</div><!-- /.names -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <nav class="navbar-collapse collapse">
+
+                <!-- THE LEFT SIDE MENU -->
+                <ul class="nav navbar-nav left-nav">
+                    <li class="active"><a href="#thetop" data-delay="200">Inicio </a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">La Boda <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="#ourstory">Nuestra Historia</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#thebrideside">La Novia</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#thegroomside">El Novio</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#weddinglocation">Ubicación del Evento</a></li>
+                            
+                        </ul><!-- /.dropdown-menu -->
+                    </li>
+                    <li><a href="#gallery1">Galería </a>
+                        <!-- <ul class="dropdown-menu">
+
+                            <li><a href="#gallery1">Gallery Style 1</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#gallery2">Gallery Style 2</a></li>
+                            
+                        </ul> --><!-- /.dropdown-menu -->
+                    </li>
+                </ul>
+
+                <!-- THE WEDDING DATE -->
+                 <a class="navbar-brand" href="#">Septiembre 5, 2014</a>
+
+                 <!-- THE RIGHT SIDE MENU -->
+                <ul class="nav navbar-nav right-nav">
+                    <!-- <li><a href="#registry">Registro</a></li> -->
+                    <li><a href="#guestbook">Libro de Visitas</a></li>
+                    <li><a href="#rsvp">Eventos</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">Contáctanos</a></li>
+                </ul><!-- /.navbar-nav -->
+
+            </nav><!--/.navbar-collapse -->
+
+        </div><!-- /.container-->
+    </header>
+
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                                    The Slider Area
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+
+    <div class="jumbotron" id="thetop">
+
+        <section class="slider">
+            
+            <div class="flexslider" id="slider1">
+
+                <!-- THE ACTUAL PHOTO SLIDES -->
+                <ul class="slides">
+                    <li><img src="img/slider/foto2.jpg" alt="photo 1" /></li>
+                    <li><img src="img/slider/foto1.jpg" alt="photo 2" /></li>
+                    <li><img src="img/slider/foto3.jpg" alt="photo 3" /></li>
+                    <li><img src="img/slider/foto4.jpg" alt="photo 4" /></li>
+                </ul><!-- /.slides -->
+
+            </div><!-- /.flexslider -->
+
+            <!-- THE NAMES OF THE BRIDE AND GROOM -->
+            <div class="names hide">
+                <div class="container">
+                    Andre <span><i>&#38;</i></span> David
+                </div><!-- /.container -->
+            </div><!-- /.names -->
+
+        </section><!-- /.slider-->
+
+    </div><!-- /.jumbotron -->
+
+    
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                        The First Area Under The Slider
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+
+    <section id="home">
+        <div class="container">
+            
+            <div class="row">
+
+                <!-- THE TITLE -->
+                <div class="col-md-12">
+                    <h2>¡nos casamos!</h2>
+                </div><!-- /.col-md-12-->
+                
+                <!-- SMALL INTRODUCTORY TEXT -->
+                <div class="col-md-12">
+                    <p>Una vez, hace algún tiempo, justo en la mitad de unas vidas ordinarias el amor nos regaló un mágico cuento. </p>
+                    <p>Nos encanta compartir con ustedes nuestra aventura.</p>
+                    <div class="col-md-12">
+                        <h2>¡Bienvenidos!</h2>
+                    </div>
+                    <!-- <p>Welcome to the wedding website of Sharon Leitner and Michael Jansen. We’re so happy to share with you all there is to know about our happyness: how we meet, the proposal, the wedding location and the events calendar that will follow. Follow on to read about the story of our love!</p> -->
+                </div><!-- /.col-md-12-->
+
+                <!-- READMORE BUTTON -->
+                <div class="col-md-12">
+                    <a href="#ourstory" class="btn btn-primary btn-lg">Inicio</a>
+                </div><!-- /.rows-->
+            </div><!-- /.col-md-12-->
+          
+        </div> <!-- /container --> 
+    </section><!-- /# home -->
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "OUR STORY" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="ourstory">
+        
+        <!-- "OUR STORY" HEADER -->
+        <div id="ourstoryphoto" class="parallax-hook parallax-ourstory parallax-background">
+            
+                <div class="section-overlay">
+                    <div class="container">
+                        <div class="row">
+                            <header class="col-md-6 col-md-offset-3">
+                                Nuestra Historia
+                                <!-- <span>Momentos Juntos</span> -->
+                            </header>
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                </div><!-- /.section-overlay -->
+            
+        </div><!-- /#outstoryphoto -->
+
+
+        <!-- "OUR STORY" ACTUAL CONTENT -->
+        <div class="container">
+
+            <!-- SECONDARY TITLE -->
+            <h3 class="text-center intermediary-waypoint">Andre y David</h3>
+
+            <!-- SECTION SMALL CONTENT -->
+            <div class="row">
+                <div class="col-md-12">
+
+                    <p align="center">Nuestra historia empieza hace más de seis años, nos conocimos, hablámos, reímos y decidimos caminar juntos desde hace cinco años y tres meses. Nos encanta compartir momentos, soñar, crear proyectos y ser el complemento del otro.</p>
+                    <p align="center">Nos comprometimos hace ocho meses, estámos muy entusiasmados, porque finalmente el día en el que uniremos nuestras vidas se acerca.</p>
+                    <p align="center">Gracias por ser parte de ésta celebración.</p>
+                 </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+
+            
+            <div class="row couple-photos">
+
+                <!-- THE BRIDE -->
+                <div class="col-md-6 col-xs-6 bride">
+                    <div class="round-frame-bg alignright">
+                        <div class="round-frame">
+                            <img src="img/thebride.jpg" alt="the bride">
+                        </div><!-- /.round-frame -->
+                    </div><!-- /.round-frame-bg alignright hide -->
+                </div><!-- /.ccol-md-6 col-xs-6 bride-->
+
+                <!-- THE GROOM -->
+                <div class="col-md-6 col-xs-6 groom">
+                    <div class="round-frame-bg alignleft">
+                        <div class="round-frame">
+                            <img src="img/thegroom.jpg" alt="the groom">
+                        </div><!-- /.round-frame -->
+                    </div><!-- /.round-frame-bg -->
+                </div><!-- /.col-md-6 col-xs-6 groom -->
+
+                <!-- LITTLE HEART GRAPHIC -->
+                <img src="img/hearts.png" class="hearts" alt="love">
+
+            </div><!-- /.couple-photos -->
+
+            <div class="thetimeline">
+
+                <!-- THE LINE THAT FORMS THE TIMELINE -->
+                <div class="line">&nbsp;</div>
+
+                <div class="theyear">
+
+                    <!-- THE YEAR -->
+                    <div class="year">2008</div>
+
+                    <!--
+                    ///////////
+                    FIRST POST 
+                    ///////////
+                    -->
+                    <div class="post odd">
+
+                        <!-- ACTUAL POST CONTENT -->
+                        <div class="post-content">
+                            <div class="post-box">
+
+                                <header>
+                                    <div class="date">Octubre<span>10</span></div>
+                                    <h2>El día que nos conocimos</h2>
+                                </header>
+
+                                <!-- <p>Nos conocimos en su cumpleaños y desde ahi ha sido una gran aventura. </p> -->
+
+                                 <!-- POST EXCERPT - A GALLERY -->
+                                <div class="excerpt">
+                                    <div class="excerpt-content gallery">
+                                        <a href="img/timeline/conocimos.jpg" class="fancybox" rel="group" title="Swinging Chairs In The Sunset">
+                                            <img src="img/timeline/thumbnails/conocimos-thumb.jpg" height="351" width="540" alt="a sunset">
+                                        </a>
+                                    </div><!-- /.excerpt-content-->
+                                </div><!-- /.excerpt -->
+
+                                <!-- <a href="#" class="readmore">Read More</a> -->
+
+                                <div class="clear">&nbsp;</div>
+                            </div><!-- /.POST-BOX -->
+                        </div><!-- /.post-content-->
+
+                        <!-- POST EXCERPT-->
+                        <div class="excerpt">
+                            <div class="excerpt-content quote">
+                                "Tell me the story about how the sun loved the moon so much. He died every night to let her breath"
+                            </div><!-- /.excerpt-content-->
+                        </div><!-- /.excerpt -->
+                    </div><!-- /.post -->
+
+                </div>
+                <div class="theyear">
+                    <!-- THE YEAR -->
+                    <div class="year">2010</div>
+
+                    <!--
+                    ///////////
+                    SECOND POST 
+                    ///////////
+                    -->
+                    <div class="post even">
+
+                        <!-- ACTUAL POST CONTENT -->
+                        <div class="post-content">
+                            <div class="post-box">
+
+                                <header>
+                                    <div class="date">Abril<span>10</span></div>
+                                    <h2>Primer Beso</h2>
+                                </header>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                                <a href="#" class="readmore">Read More</a>
+
+                                <div class="clear">&nbsp;</div>
+
+                            </div><!-- /.POST-BOX -->
+                        </div><!-- /.post-content-->
+                        
+                    </div><!-- /.post -->
+
+
+                    <!--
+                    ///////////
+                    THIRD POST 
+                    ///////////
+                    -->
+                    <div class="post odd">
+
+                        <!-- ACTUAL POST CONTENT -->
+                        <div class="post-content">
+                            <div class="post-box">
+
+                                <header>
+                                    <div class="date">May<span>30</span></div>
+                                    <h2>Our First Vacation</h2>
+                                </header>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                                <a href="#" class="readmore">Read More</a>
+
+                                <div class="clear">&nbsp;</div>
+
+                            </div><!-- /.POST-BOX -->
+                        </div><!-- /.post-content-->
+
+                        <!-- POST EXCERPT - A GALLERY -->
+                        <div class="excerpt">
+                            <div class="excerpt-content gallery">
+                                <h4>Photos From Our First Vacation</h4>
+                                <a href="img/bloggallery1/img-1.jpg" class="fancybox" rel="group" title="Swinging Chairs In The Sunset">
+                                    <img src="img/bloggallery1/thumbnails/img-1-thumb.jpg" alt="a sunset">
+                                </a>
+                                <a href="img/bloggallery1/img-2.jpg" class="fancybox" rel="group" title="A little Cottage We Found">
+                                    <img src="img/bloggallery1/thumbnails/img-2-thumb.jpg" alt="a little cottage">
+                                </a>
+                                <a href="img/bloggallery1/img-3.jpg" class="fancybox" rel="group" title="Seaside is So Relaxing!">
+                                    <img src="img/bloggallery1/thumbnails/img-3-thumb.jpg" alt="seaside">
+                                </a>
+                                <a href="img/bloggallery1/img-4.jpg" class="fancybox" rel="group" title="Our Old Car">
+                                    <img src="img/bloggallery1/thumbnails/img-4-thumb.jpg" alt="our old car">
+                                </a>
+                            </div><!-- /.excerpt-content-->
+                        </div><!-- /.excerpt -->
+                        
+                    </div><!-- /.post -->
+                </div><!-- /.theyear-->
+
+
+                <!-- THE SECOND YEAR -->
+                <div class="theyear">
+                    <div class="year">2011</div>
+
+                    <!--
+                    ///////////
+                    FIRST POST 
+                    ///////////
+                    -->
+                    <div class="post even">
+
+                        <!-- ACTUAL POST CONTENT -->
+                        <div class="post-content">
+                            <div class="post-box">
+
+                                <header>
+                                    <div class="date">May<span>30</span></div>
+                                    <h2>Moving In Together</h2>
+                                </header>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                                <a href="#" class="readmore">Read More</a>
+
+                                <div class="clear">&nbsp;</div>
+
+                            </div><!-- /.POST-BOX -->
+                        </div><!-- /.post-content-->
+
+                        <!-- POST EXCERPT -->
+                        <div class="excerpt">
+                            <div class="excerpt-content quote"><span>&#8220;</span>But The Best Part Of Our Lifes Is Just Starting...</div><!-- /.excerpt-content-->
+                        </div><!-- /.excerpt -->
+
+                    </div><!-- /.post -->
+
+                    <!--
+                    ///////////
+                    SECOND POST 
+                    ///////////
+                    -->
+                    <div class="post odd">
+
+                        <!-- ACTUAL POST CONTENT -->
+                        <div class="post-content">
+                            <div class="post-box">
+
+                                <header>
+                                    <div class="date">May<span>30</span></div>
+                                    <h2>The Marriage Proposal</h2>
+                                </header>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+                                <a href="#" class="readmore">Read More</a>
+
+                                <div class="clear">&nbsp;</div>
+                            </div><!-- /.POST-BOX -->
+                        </div><!-- /.post-content-->
+                        
+                    </div><!-- /.post -->
+                </div><!-- /.theyear -->
+
+                <!-- "TO BE CONTINUED" BUTTON -->
+                <div class="theyear">
+                    <div class="year">Continuará...</div>
+                </div>
+            </div><!-- /.timeline-->
+          
+        </div> <!-- /container --> 
+    </section><!-- /# ourstory -->
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "BRIDE'S PARTY" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="thebrideside">
+
+        <!-- "THE BRIDE'S SIDE" HEADER -->
+        <div id="thebridesidephoto" class="parallax-hook parallax-thebrideside parallax-background">
+                
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3">
+                            El Lado de la Novia
+                            <span>Familia y Amigos de la Novia</span>
+                        </header>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.section-overlay -->
+            
+        </div><!-- /#thebridesidephoto -->
+
+        <!-- "THE BRIDE'S SIDE" ACTUAL CONTENT -->
+        <div class="container">
+
+            <!-- SECONDARY TITLE -->
+            <h3 class="text-center intermediary-waypoint">Familia y Amigas de la Novia</h3>
+
+            <div class="row">
+
+                <!-- THE BRIDE'S MOM -->
+                <div class="col-md-4 bridemom">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/xiomi.jpg" alt="bride's mom">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Xiomara Tabares (Mamá)</h5>
+                        <p align="justify">Es la mujer con mayor fortaleza, inteligencia y pasión por la vida que conozco. Agradezco a la vida por poder llamarle mamá.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE BRIDE -->
+                <div class="col-md-4 thebride">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/thebride.jpg" alt="the bride">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE BRIDE'S DAD -->
+                <div class="col-md-4 bridedad">
+                    <div> 
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/roberto.jpg" alt="bride's dad">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Roberto Cuesta (Padre)</h5>
+                        <p align="justify">El primer Hombre de mi vida, me ha enseñado cosas sencillas y complejas. Su corazón, compromiso y entrega son admirables. Agradecida por mi hermoso papá.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+            </div><!-- /.row-->
+
+            <!-- THE BRIDE'S MAIDS -->
+            <div class="row">
+
+                <!-- BRIDE'S MAID 1 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/mayte.jpg" alt="Mayte Cuesta">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Mayte Cuesta (Dama de Amor)</h5>
+                        <p align="justify">Mi hermana y compañera de  vida. Hemos compartido todos nuestros años en este planeta y soy feliz por ese regalo.</p>
+                    </div><!-- /.hide -->
+               </div><!-- /.col-md-4-->
+
+               <!-- BRIDE'S MAID 2 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/carla.jpg" alt="Carla Rubio">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Carla Rubio (Dama)</h5>
+                        <p align="justify">Mi científica favorita. Somos amigas desde hace más de diez años. Tenemos muchos recuerdos en común, y nos quedan un millón de cosas que vivir juntas.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 3 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/majo.jpg" alt="Majo Naranjo">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Maria Jose Naranjo (Dama)</h5>
+                        <p align="justify">La prima mayor y la más guapa. Siempre ha sido ejemplo para mí y para todos. Feliz de compartir este momento con ella.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+            </div>
+
+            <div class="row">
+
+                <!-- BRIDE'S MAID 4 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/leslie.jpg" alt="bride's maid">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Leslie Páez (Dama)</h5>
+                        <p align="justify">La amiga con corazón de madre. Esa persona que siempre se preocupa por los demás, la más detallista y la mejor chef de alfajores del mundo. ☺</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 5 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/pame.jpg" alt="Pame Aguilar">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Pamela Aguilar (Dama)</h5>
+                        <p align="justify">La chinita menor. Admiro su pasión por lo que hace y su fortaleza para caminar por la vida sobre cualquier obstáculo, con la mirada fija en la meta. </p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 6 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/danny.jpg" alt="Daniela Aguilar">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Daniela Aguilar (Dama)</h5>
+                        <p align="justify">La chinita mayor. La prima fashion, siempre tiene una sonrisa o una mueca. ☺ Cuando recuerdo mi niñez ella está en primer plano. </p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+            </div>
+
+            <div class="row">
+
+                <!-- BRIDE'S MAID 7 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/malena.jpg" alt="Malena Burgos">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Malena Burgos (Dama)</h5>
+                        <p align="justify">La doctora corazón. Amiga del novio y ahora también mía. Una persona entregada a su familia y profesión. </p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 7 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/dianavillacis.jpg" alt="bride's maid">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Diana Villacís (Dama)</h5>
+                        <p align="justify">La hermana del novio y la diseñadora más talentosa. La persona que siempre está pendiente de cada detalle. </p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 7 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/amy.jpg" alt="Amelia Ramon">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Amelia Ramón (Niña Aros)</h5>
+                        <p align="justify">La niña que llena de alegría cualquier lugar que pisa, con solo tres añitos se ha robado el corazón de todos. </p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 7 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/clarita.jpg" alt="Clarita Mercedes">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Clarita Mercedes (Pajecito)</h5>
+                        <p align="justify">Mi prima más chiquita. Ama a los animales, me encanta verle jugar con sus gatitos, además es una experta gamer, les ganas a sus tres hermanos mayores. ☺</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 7 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/anapaula.jpg" alt="Ana Paula Marín">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Ana Paula Marín (Pajecito)</h5>
+                        <p align="justify">La más vanidosa de las niñas, me encanta responder a sus preguntas y jugar con ella. Siempre tiene un abrazo para los demás</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- BRIDE'S MAID 7 -->
+                <div class="col-md-4 bridesmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/cami.jpg" alt="Camila Naranjo">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Camila Naranjo (Niña Flores)</h5>
+                        <p align="justify">Ella con una sonrisa  ilumina el mundo, es la damita más tierna y alegre. </p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+            </div><!-- /.row-->
+
+        </div><!-- /.container -->
+    </section><!-- /.thebridesidephoto-->
+
+    <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "GROOM'S PARTY" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="thegroomside">
+
+         <!-- "THE GROOM'S SIDE" HEADER -->
+        <div id="thegroomsidephoto" class="parallax-hook parallax-thegroomside parallax-background">
+
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3">
+                            El Lado del Novio
+                            <span>Amigos y Familia del Novio</span>
+                        </header>
+                    </div><!-- /.row-->
+                </div><!-- /.container-->
+            </div><!-- /.section-overlay-->
+
+        </div><!-- /#thegroomsidephoto -->
+
+        <!-- "THE GROOM'S SIDE" ACTUAL CONTENT -->
+        <div class="container">
+
+            <!-- SECONDARY TITLE -->
+            <h3 class="text-center intermediary-waypoint">Familia y Amigos del Novio</h3>
+
+            <div class="row">
+
+                <!-- THE GROOM'S MOM -->
+                <div class="col-md-4 groommom">
+                    <div> 
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/marianela.jpg" alt="groom's mom">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Marianela Proaño (Madre)</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                    </div><!--- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM -->
+                <div class="col-md-4 thegroom">
+                     <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/thegroom.jpg" alt="the groom">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                    </div>
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM'S DAD -->
+                <div class="col-md-4 groomdad">
+                    
+                    <div> 
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/luis.jpg" alt="groom's dad">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Luis Villacís (Padre)</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                    </div>
+                </div><!-- /.col-md-4-->
+
+            </div><!-- /.row-->
+
+
+            <!-- THE GROOM'S MEN -->
+            <div class="row">
+
+                <!-- THE GROOM'S MAN 1 -->
+                <div class="col-md-4 groomsmaid">
+                    <div> 
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/pablovelarde.jpg" alt="Pablo Velarde">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Pablo Velarde (Padrino)</h5>
+                        <p>Mi gran amigo durante todos mis años de colegio y universidad, y ahora colegas de la ciencia! Es una persona de la que siempre aprendo algo nuevo y en la que siempre puedo contar.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM'S MAN 2 -->
+                <div class="col-md-4 groomsmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/gabriel.jpg" alt="groom man">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Gabriel Castellanos (Caballero)</h5>
+                        <p>Gran amigo desde las épocas colegiales hasta que decidió ser guaypero! Es un gran ejemplo para mi de trabajo y amor por su familia.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM'S MAN 3 -->
+                <div class="col-md-4 groomsmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/emanuelbertozzi.jpg" alt="groom man">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Emanuel Bertozzi (Caballero)</h5>
+                        <p>Su número esta en mi marcado rapido, antes del 911, para cualquier emergencia médica. Un gran amigo por mas de 10 años y una persona en la que siempre puedo contar.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+            </div>
+
+            <div class="row">
+
+                <!-- THE GROOM'S MAN 4 -->
+                <div class="col-md-4 groomsmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/alex.jpg" alt="groom man">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Alex Villavicencio (Caballero)</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM'S MAN 5 -->
+                <div class="col-md-4 groomsmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/chriscuesta.jpg" alt="Christian Cuesta">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Christian Cuesta (Caballero)</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM'S MAN 6 -->
+                <div class="col-md-4 groomsmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/criscastro.jpg" alt="Cristian Castro">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Cristian Castro (Caballero)</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM'S MAN 7 -->
+                <div class="col-md-4 groomsmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/davidcalderon.jpg" alt="groom man">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>David Calderón (Caballero)</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+                <!-- THE GROOM'S MAN 7 -->
+                <div class="col-md-4 groomsmaid">
+                    <div>
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/martin.jpg" alt="groom man">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <h5>Martin Castellanos </h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div><!-- /.hide -->
+                </div><!-- /.col-md-4-->
+
+            </div><!-- /.row-->
+        </div><!-- /.container -->
+    </section><!-- /.thegroomsidephoto-->
+
+     <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "WEDDING LOCATION" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="weddinglocation">
+
+        <!-- "THE WEDDING LOCATION" HEADER -->
+        <div id="weddinglocationphoto" class="parallax-hook parallax-weddinglocation parallax-background">
+            
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3">
+                            Ubicación del Evento
+                            <span>Dónde es la farra?</span>
+                        </header>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.section-overlay -->
+            
+        </div><!-- /#weddinglocationphoto -->
+
+        <!-- "THE WEDDING LOCATION" ACTUAL CONTENT -->
+        <div class="container location">
+            <div class="row">
+                <div class="col-md-6 thelocation">
+
+                    <!-- INTERMEDIARY TITLE -->
+                    <h3 class="sectionmaintitle">Lugar de la Ceremonia y Celebración</h3>
+                    
+                    <!-- INTERMEDIARY CONTENT -->
+                    <p>En la ciudad de las flores y las frutas, un soleado día de Septiembre se llevará a cabo este evento. Les esperamos en pinllo!</p>
+                    <p>PD. Hagan como que fueran a las gallinas!</p>
+
+                    <!-- ADDRESS AND CEREMONY TIME -->
+                    <ul class="locationdetails">
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            <div class="alignleft">
+                                <h5>Quinta San Martín</h5>
+                                <p>Calle Periódico La Democracia Via Laquingo, junto a la Urbanización Jericó </p>
+                                <p>Pinllo, Ambato, Tungurahua</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-time"></span>
+                            <div class="alignleft">
+                                <h5>5 de Septiembre, 2015</h5>
+                                <p>10:30 AM GMT</p>
+                            </div>
+                        </li>
+                    </ul><!-- /.locationdetails -->
+                </div><!-- /.col-md-6-->
+
+
+                <!-- THE MAP -->
+                <div class="col-md-6 alignright">
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2970.1578887750748!2d12.472485400000002!3d41.889461399999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6038004c34f7%3A0xb2b23ef97d139fde!2sVicolo+della+Torre%2C+16!5e0!3m2!1sen!2s!4v1399889383257" style="width:100%;" height="300" frameborder="0" style="border:0"></iframe> -->
+                    <div id="map-canvas"></div>
+
+                </div><!-- /.col-md-6-->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+
+
+        <!-- THE AVAILABLE HOTELS -->
+        <div class="hotels">
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- HOTELS SMALL CONTENT -->
+                    <div class="col-md-3 col-sm-3">
+                        <h3 class="sectionmaintitle">Hoteles Cercanos</h3>
+                        <p>Realmente queremos que nuestros invitados se sientan a gusto en su visita a la hermosa ciudad de Ambato, por lo que hemos reunido una lista con los hoteles de mejor costo/beneficio en el área </p>
+                    </div><!-- /.col-md-3-->
+
+                    <!-- HOTEL 1 -->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/hotel1.jpg" alt="hotel 1">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <div class="alignright">
+                            <h5>Hotel La Fornace</h5>
+                            <p>4567 Street name, 012 </p>
+                            <p>City name, Country</p>
+                            <a href="#" class="readmore">Website</a>
+                        </div><!-- /.alignright -->
+                    </div><!-- /.col-md-3-->
+
+                    <!-- HOTEL 2 -->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/hotel2.jpg" alt="hotel 2">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <div class="alignright">
+                            <h5>Hotel Ambato</h5>
+                            <p>4567 Street name, 012 </p>
+                            <p>City name, Country</p>
+                            <a href="#" class="readmore">Website</a>
+                        </div><!-- /.alignright -->
+                    </div><!-- /.col-md-3-->
+
+                    <!-- HOTEL 3 -->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="round-frame-bg">
+                            <div class="round-frame">
+                                <img src="img/hotel3.jpg" alt="hotel 3">
+                            </div><!-- /.round-frame -->
+                        </div><!-- /.round-frame-bg -->
+                        <div class="alignright">
+                            <h5>Hotel </h5>
+                            <p>4567 Street name, 012 </p>
+                            <p>City name, Country</p>
+                            <a href="#" class="readmore">Website</a>
+                        </div><!-- /.alignright -->
+                    </div><!-- /.col-md-3-->
+                </div><!-- /.row -->
+            </div><!-- /.container-->
+        </div><!-- /.hotels -->
+
+
+        <!-- THE LOCAL ATTRACTIONS -->
+         <div class="container attractions">
+             <div class="row">
+
+                <!-- ATTRACTIONS SMALL CONTENT -->
+                <div class="col-md-3 col-sm-3">
+                    <h3 class="sectionmaintitle">Atractivos Turísticos</h3>
+                    <p>Ya que se encuentran por el área vale la pena que disfruten de todo lo que esta parte del país tiene para ofrecer. Estas son nuestras actividades favoritas</p>
+                </div><!-- /.col-md-3-->
+
+
+                <!-- ATTRACTION 1 -->
+                <div class="col-md-3 col-sm-3">
+                    <div class="round-frame-bg">
+                        <div class="round-frame">
+                            <img src="img/attraction1.jpg" alt="attraction 1">
+                        </div><!-- /.round-frame -->
+                    </div><!-- /.round-frame-bg -->
+                    <div class="alignright">
+                        <h5>Quinta Juan León Mera</h5>
+                        <p>4567 Street name, 012 </p>
+                        <p>City name, Country</p>
+                        <a href="#" class="readmore">Website</a>
+                    </div><!-- /.alignright -->
+                </div><!-- /.col-md-3-->
+
+                <!-- ATTRACTION 2 -->
+                <div class="col-md-3 col-sm-3">
+                    <div class="round-frame-bg">
+                        <div class="round-frame">
+                            <img src="img/attraction2.jpg" alt="attraction 2">
+                        </div><!-- /.round-frame -->
+                    </div><!-- /.round-frame-bg -->
+                    <div class="alignright">
+                        <h5>Quinta Juan Montalvo</h5>
+                        <p>4567 Street name, 012 </p>
+                        <p>City name, Country</p>
+                        <a href="#" class="readmore">Website</a>
+                    </div><!-- /.alignright -->
+                </div><!-- /.col-md-3-->
+
+                <!-- ATTRACTION 3 -->
+                <div class="col-md-3 col-sm-3">
+                    <div class="round-frame-bg">
+                        <div class="round-frame">
+                            <img src="img/attraction3.jpg" alt="attraction 3">
+                        </div><!-- /.round-frame -->
+                    </div><!-- /.round-frame-bg -->
+                    <div class="alignright">
+                        <h5>Central Park</h5>
+                        <p>4567 Street name, 012 </p>
+                        <p>City name, Country</p>
+                        <a href="#" class="readmore">Website</a>
+                    </div><!-- /.alignright -->
+                </div><!-- /.col-md-3-->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- weddinglocation -->
+
+     <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "GALLERY MODEL 1" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="gallery1">
+
+        <!-- "GALLERY 1" SECTION TITLE -->
+        <div id="gallery1photo" class="parallax-hook parallax-gallery1 parallax-background">
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3">
+                            Galería
+                            <!-- <span>Fotos de nuestro compromiso y boda</span> -->
+                        </header>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.section-overlay -->
+            
+        </div><!-- /#gallery1photo -->
+
+        <!-- "GALLERY 1" ACTUAL CONTENT -->
+        <div class="container">
+            <h3 class="text-center">Algunas fotos de nuestro compromiso y boda</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <!-- MEGAFOLIO FILTER LIST -->
+            <ul class="filter-list">
+                <li class="filter" data-category="cat-all">Todo</li>
+                <li class="filter" data-category="cat-one">La Ceremonia</li>
+                <li class="filter" data-category="cat-two">La Fiesta</li>
+                <li class="filter" data-category="cat-three">Los Invitados</li>
+                <li class="filter" data-category="cat-four">Primer Baile</li>
+                <li class="filter" data-category="cat-five">El Pastel</li>
+                <li class="filter" data-category="cat-six">Pre-Boda</li>
+                <li class="filter" data-category="cat-seven">#bodaabejorros</li>
+            </ul><!-- /.filter-list -->
+            <div class="clearfix"></div>
+
+            <!-- MEGAFOLIO CONTAINER -->
+            <div class="gallery-container">
+                <div class="megafolio-container">
+
+                    <div class="mega-entry cat-all cat-six" id="entry-1" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto1.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                            <!-- <div class="mega-hovertitle">
+                                <div class="mega-hoversubtitle">No se si estamos hechos el uno para el otro, pero si hemos llegado hasta acá es porque seguimos eligiéndonos cada día, y eso es como estar hechos el uno para el otro.</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto1.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+
+                    <div class="mega-entry cat-all cat-six" id="entry-2" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto2.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                            <!-- <div class="mega-hovertitle">Chairs In The Sunset
+                                <div class="mega-hoversubtitle">(Before The Wedding)</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto2.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+
+                    <div class="mega-entry cat-all cat-six" id="entry-3" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto3.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                           <!--  <div class="mega-hovertitle">Chairs In The Sunset
+                                <div class="mega-hoversubtitle">(Before The Wedding)</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto3.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+
+                    <div class="mega-entry cat-all cat-six" id="entry-4" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto4.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                            <!-- <div class="mega-hovertitle">Chairs In The Sunset
+                                <div class="mega-hoversubtitle">(Before The Wedding)</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto4.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+
+                    <div class="mega-entry cat-all cat-six" id="entry-5" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto5.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                            <!-- <div class="mega-hovertitle">Chairs In The Sunset
+                                <div class="mega-hoversubtitle">(Before The Wedding)</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto5.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+
+                    <div class="mega-entry cat-all cat-six" id="entry-6" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto6.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                            <!-- <div class="mega-hovertitle">Chairs In The Sunset
+                                <div class="mega-hoversubtitle">(Before The Wedding)</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto6.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+                    
+                    <div class="mega-entry cat-all cat-six" id="entry-7" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto7.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                            <!-- <div class="mega-hovertitle">Chairs In The Sunset
+                                <div class="mega-hoversubtitle">(Before The Wedding)</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto7.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+
+                    <div class="mega-entry cat-all cat-six" id="entry-8" data-src="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto8.jpg" data-width="320" data-height="240"> 
+                        
+                        <div class="mega-hover">
+                         
+                           
+                            <!-- <div class="mega-hovertitle">Chairs In The Sunset
+                                <div class="mega-hoversubtitle">(Before The Wedding)</div>
+                            </div> -->
+                         
+                            
+                            <a href="#"><div class="mega-hoverlink"></div></a>
+                         
+                            
+                            <a class="fancybox" href="https://googledrive.com/host/0B2nLPtUBf8r8VHJwLWNmZnROWUU/foto8.jpg">
+                                <div class="mega-hoverview"></div>
+                            </a>
+                         
+                        </div> 
+                    </div>
+
+                </div><!-- /.megafolio-container--> 
+            </div><!-- /.gallery-container-->
+
+        </div><!-- /.container -->
+
+    </section><!-- gallery1 -->
+
+     <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "GUEST BOOK" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <section id="guestbook">
+
+        <!-- "GUEST BOOK" SECTION MAIN TITLE -->
+        <div id="guestbookphoto" class="parallax-hook parallax-guestbook parallax-background">
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3">
+                            Libro de Visitas
+                            <!-- <span>Pensamientos de nuestra familia y amigos</span> -->
+                        </header>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.section-overlay -->
+            
+        </div><!-- /#guestbookphoto -->
+
+        <!-- "GUEST BOOK" ACTUAL CONTENT -->
+        <div class="container">
+            <h3 class="text-center">Pensamientos de nuestra familia y amigos:</h3>
+
+            <div class="border">
+                <div class="row">
+
+                    <!-- "GUEST BOOK" COMMENT -->
+                    <div data-bind="foreach: mm.mensajes">
+                        <div class="col-md-4" >
+                            <div>
+                                <img src="img/guestbook-guest.png" alt="guest 1">
+                                <h5 data-bind="text: nombre"> </h5>
+                                <span data-bind="text: fecha"> </span> 
+                                <p data-bind="text: mensaje"> </p>
+                            </div>
+                        </div><!-- /.col-md-4 -->
+                    </div>
+                    
+                </div><!-- /.row -->
+            </div><!-- /.border -->
+
+            <!-- SIGN OUR GUESTBOOK SECTION -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-left">Firma nuestro Libro de Visitas!</h3>
+                    <p>Déjanos un pensamiento, un deseo o felicitación y nos harás muy felices. Despues de la boda vamos a organizar todos estos deseos en un álbum para que todos lo lean!</p>
+                </div>
+                <div class="col-md-6">
+
+                    <!-- "GUEST BOOK" FORM -->
+                    <form role="form" action="sign_questbook.php" method="post" id="signguestbook">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre..." id="guest-name" name="guest-name" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" placeholder="Email..." id="guest-email" name="guest-email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="guest-message" name="guest-message" placeholder="Déjanos tu mensaje aqui..." rows="3" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group" id='gb_submit_m'>
+                            <input type="submit" class="btn btn-primary" id="send_guestbook" value="Enviar Mensaje">
+                        </div>
+                        <!-- SUCCESS/ERROR FIELDS -->
+                        <div id='guestbook_success' class='alert alert-success'>Thank you. Your message has been sent.</div><!-- /. SUCCESS MESSAGE -->
+                        <div id='guestbook_fail' class='alert alert-danger'> Sorry, don't know what happened. Try later.</div><!-- /. ERROR MESSAGE -->
+                    </form><!-- /.signguestbook-->
+                </div><!-- /.col-md-6-->
+            </div><!-- /.row-->
+                        
+        </div><!-- /.container -->
+
+    </section><!-- guestbook -->
+
+     <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "EVENTS CALENDAR / RSVP" section
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+     <section id="rsvp">
+
+        <!-- "RSVP" SECTION MAIN TITLE -->
+        <div id="rsvpphoto" class="parallax-hook parallax-rsvp parallax-background">
+            <div class="section-overlay">
+                <div class="container">
+                    <div class="row">
+                        <header class="col-md-6 col-md-offset-3">
+                            Calendario de Eventos
+                            <!-- <span>Estas son las actividades que vamos a realizar</span> -->
+                        </header>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.section-overlay -->
+            
+        </div><!-- /#rsvpphoto -->
+
+        <!-- "RSVP" SECTION actual content -->
+        <div class="container">
+            
+            <!-- "RSVP" INTERMEDIARY TITLE AND CONTENT -->
+            <h3 class="text-center">Estos son los eventos más importantes. Por favor regístrate a continuación!</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            
+            <!-- "RSVP" EVENTS -->
+            <div class="row calendar">
+                <h4 class="text-center">Haz click en el evento que quieras participar</h4>
+                <div class="col-md-4">
+
+                    <!-- THE MONTH -->
+                    <h4 class="sectionmaintitle">Agosto, 2015</h4>
+
+                    <div class="border">
+
+                        <div class="row">
+
+                            <!-- RSVP EVENT -->
+                            <div class="col-md-6">
+                                <div class="date">
+                                    15<span>th</span>
+                                </div><!-- /.date-->
+                                <h5 class="bachelorsParty">Despedida de Soltero</h5>
+                            </div><!-- /.col-md-4 -->
+
+                            <!-- RSVP EVENT -->
+                            <div class="col-md-6">
+                                <div class="date">
+                                    15<span>rd</span>
+                                </div><!-- /.date-->
+                                <h5 class="theGirlsParty">Despedida de Soltera</h5>
+                            </div><!-- /.col-md-4 -->
+
+                        </div><!-- /.row -->
+                    </div><!-- /.border -->
+                </div><!-- /.col-md-4 -->
+
+                <!-- THE MONTH -->
+                <div class="col-md-4">
+                    <h4 class="sectionmaintitle">Agosto, 2015</h4>
+                    <div class="border">
+                        <div class="row">
+
+                            <!-- RSVP EVENT -->
+                            <div class="col-md-4">
+                                <div class="date">
+                                    29<span>th</span>
+                                </div><!-- /.date-->
+                                <h5 class="weddingRehearsal">Boda Civil</h5>
+                            </div><!-- /.col-md-6 -->
+
+                            <!-- RSVP EVENT -->
+                            <div class="col-md-4">
+                                <div class="date">
+                                    29<span>nd</span>
+                                </div><!-- /.date-->
+                                <h5 class="familyDinner">Cena en Familia</h5>
+                            </div><!-- /.col-md-6 -->
+
+                            <!-- RSVP EVENT -->
+                            <div class="col-md-4">
+                                <div class="date">
+                                    29<span>nd</span>
+                                </div><!-- /.date-->
+                                <h5 class="CeremonyRehersal">Ensayo Ceremonia</h5>
+                            </div><!-- /.col-md-6 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.border -->
+                </div><!-- /.col-md-4 -->
+
+                <!-- THE MONTH -->
+                <div class="col-md-4">
+                    <h4 class="sectionmaintitle">Septiembre, 2015</h4>
+                    <div class="border">
+                        <div class="row">
+
+                            <!-- RSVP EVENT -->
+                            <div class="col-md-12">
+                                <div class="date">
+                                    5<span>th</span>
+                                </div><!-- /.date-->
+                                <h5 class="theWedding">La Boda</h5>
+                            </div><!-- /.col-md-12 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.border --><!-- /.row -->
+                </div><!-- /.col-md-4 -->
+            </div><!-- /.row -->
+
+            <!-- THE RSVP FORM -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="sectionmaintitle">Por favor utiliza el formulario de registro</h4>
+                    <p align="justify">
+                        Puedes confirmarnos la asistencia a cualquiera de los eventos listados (o a todos!) marcando las casillas y dejandonos tus datos. No te olvides de los requerimientos especiales si los tienes. Nos vemos en unos días.
+                    </p>
+                </div>
+                <div class="col-md-8">
+
+                    <!-- the actual form begins -->
+                    <form role="form" action="send_rsvp.php" method="post" id="rsvpform">
+
+                        <!-- EVENTS ATTENDING -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Eventos a los que Asistiré <span>(click en el menu de arriba):</span></h5>
+                            </div>
+                            <div class="col-md-6" id="thecheckboxes"></div>
+                        </div><!--/.row-->
+
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <!-- NAME -->
+                                <div class="form-group">
+                                    <label for="rsvp-name" class="sr-only">Nombre</label>
+                                    <input type="text" name="rsvp-name" placeholder="Nombres Completos" id="rsvp-name" class="form-control">
+                                </div><!-- /.form-group -->
+
+                                <!-- EMAIL -->
+                                <div class="form-group">
+                                    <label for="rsvp-email" class="sr-only">Correo Electrónico</label>
+                                    <input type="email" name="rsvp-email" placeholder="Correo Electrónico" id="rsvp-email" class="form-control">
+                                </div><!-- /.form-group -->
+                            </div><!-- /.col-md-6 -->
+
+                            <div class="col-md-6">
+
+                                <!-- EXTRA REQUIREMENTS -->
+                                <div class="form-group">
+                                    <label for="rsvp-extra" class="sr-only">Requerimientos Especiales</label>
+                                    <textarea id="rsvp-extra" name="rsvp-extra" placeholder="Requerimientos Especiales ( menu vegetariano, extra-carne, etc)" rows="3" class="form-control"></textarea>
+                                </div><!-- /.form-group -->
+                            </div><!-- /.col-md-6 -->
+
+
+                        </div><!--/.row-->
+
+                        <div class="row">
+                            <div class="col-md-12">
+
+                                <!-- MESSAGE -->
+                                <div class="form-group">
+                                    <label for="rsvp-message" class="sr-only">Tu Mensaje</label>
+                                    <textarea id="rsvp-message" name="rsvp-message" placeholder="Ingresa tu mensaje" rows="3" class="form-control"></textarea>
+                                </div><!-- /.form-group -->
+                            </div><!-- /.col-md-12-->
+                        </div><!--/.row-->
+
+                        <div class="row" id='cf_submit_p'>
+
+                            <!-- SUBMIT BUTTOM -->
+                            <input type="submit" value="Confirmar Asistencia" class="btn btn-primary btn-lg alignright" id="send_message">
+                            
+                        </div><!--/.row-->
+
+                        <!-- ERROR/SUCCESS -->
+                        <div id='mail_success' class='alert alert-success'>Gracias, tu confirmación ha sido enviada.</div><!-- /. SUCCESS MESSAGE -->
+                        <div id='mail_fail' class='alert alert-danger'> UPS! Tuvimos algun error, por favor intenta más tarde.</div><!-- /. ERROR MESSAGE -->
+                    </form>
+                </div>
+            </div>
+        </div><!-- /.container -->
+
+    </section><!-- rsvp -->
+
+
+
+     <!-- =========================================================================================================
+    ==============================================================================================================
+                                            "Contact Us" form
+    ==============================================================================================================
+    ============================================================================================================== -->
+
+    <!-- CONTACT US FORM -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Envíanos un Mensaje</h4>
+                </div>
+                
+                <!-- the actual form begins -->
+                <form id="contactus" method="post" action="send_mail.php" role="form">
+
+                    <div class="modal-body">
+                        
+                        <p>Tienes un mensaje o una pregunta para nosotros? Trataremos de responderte lo más pronto posible. Please use the form below and we'll receive your message in our inbox, only for us to see</p>
+
+                        <!-- NAME -->
+                        <div class="form-group">
+                            <label for="contactname">Nombre</label>
+                            <input type="text" class="form-control" id="contactname" name="contactname" placeholder="Your Name">
+                        </div><!-- /.form-group -->
+
+                        <!-- EMAIL -->
+                        <div class="form-group">
+                            <label for="contactemail">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="contactemail" name="contactemail" placeholder="Your Email">
+                        </div><!-- /.form-group -->
+
+                        <!-- MESSAGE -->
+                        <div class="form-group">
+                            <label for="contactmessage">Tu Mensaje</label>
+                            <textarea class="form-control" rows="3" placeholder="Please Enter Your Message" id="contactmessage" name="contactmessage"></textarea>
+                        </div><!-- /.form-group -->
+                       
+                    </div><!-- /.modal-body -->
+                    
+                    <div class="modal-footer" id='cf_submit_m'>
+
+                        <!-- SUBMIT BUTTON -->
+                        <input type="submit" value="Send Message" id="send_contact_message" class="btn btn-primary">
+                    </div><!-- /.modal-footer -->
+
+                        <!-- SUCCESS/ERROR FIELDS -->
+                    <div id='contact_success' class='alert alert-success'>Thank you. Your message has been sent.</div><!-- /. SUCCESS MESSAGE -->
+                    <div id='contact_fail' class='alert alert-danger'> Sorry, don't know what happened. Try later.</div><!-- /. ERROR MESSAGE -->
+                </form><!-- /.contactus -->
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2015 Andrea &amp; David</p>
+        </div>
+    </footer>
+
+    <!-- INCLUDE jQUERY -->
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+    <!-- DETECT the device type (mobile/desktop) -->
+    <script type="text/javascript" src="js/vendor/device.min.js"></script>
+
+    <!-- INCLUDE jQuery waypoints plugin -->
+    <script src="js/vendor/waypoints.min.js"></script>
+
+    <!-- INCLUDE flexslider SCRIPT -->
+    <script defer src="js/vendor/jquery.flexslider.js"></script>
+
+    <!-- Optional FlexSlider Additions -->
+    <script src="js/vendor/jquery.easing.js"></script>
+    <script src="js/vendor/jquery.mousewheel.js"></script>
+
+    <!-- INCLUDE bootstrap SCRIPT -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <!-- INCLUDE bootstrap dropdown-on-hover plugin -->
+    <script src="js/vendor/bootstrap-hover-dropdown.min.js"></script>
+
+    <!-- INCLUDE parallax plugin -->
+    <script src="js/vendor/jquery.parallax.min.js"></script>
+
+    <!-- MEGAFOLIO PRO GALLERY JS FILES -->
+    <script type="text/javascript" src="megafolio/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="megafolio/js/jquery.themepunch.megafoliopro.js"></script>
+
+    <!-- FANCYBOX JS FILES -->
+    <script type="text/javascript" src="megafolio/fancybox/jquery.fancybox.pack.js?v=2.1.3"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media ONLY FOR ADVANCED USAGE-->
+    <script type="text/javascript" src="megafolio/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+
+    <!-- KNOCKOUTJS -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+    
+    <!-- INCLUDE other plugins and scripts AUTHOR MADE -->
+    <script src="js/vendor/jquery.queryloader2.js"></script>
+
+    <script src="js/endpoints.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+    <!-- INCLUDE other plugins and scripts AUTHOR MADE -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    </body>
+</html>

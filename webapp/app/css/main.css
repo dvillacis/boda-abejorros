@@ -507,7 +507,7 @@ h6 {
 
 	/* the header */
 	#ourstoryphoto {
-		background-image:url(../img/parallax/ourlovestory.jpg);
+		background-image:url(../img/parallax/brideside.jpg);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -719,16 +719,10 @@ h6 {
 	}
 	.post .excerpt {
 		position: relative;
-		padding: 10px 0 0 35px;
+		padding: 0;
+		/*padding: 10px 0 0 35px;*/
 		float: right;
-		width: 55%;
-		
-	}
-	.post .excerpt2 {
-		position: relative;
-		padding: 10px 0 0 35px;
-		float: right;
-		width: 50%;
+		width: 100%;
 		
 	}
 	.post .excerpt-content {
@@ -751,6 +745,8 @@ h6 {
 		display: block;
 		float: left;
 		margin-right: 5px;
+		width: 200px;
+		height: 200px;
 	}
 	.post .excerpt-content a:last-child {
 		margin-right: 0px;
@@ -1729,7 +1725,7 @@ h6 {
 	#guestbook .col-md-7 > div, #guestbook .col-md-8 > div, #guestbook .col-md-9 > div,
 	#guestbook .col-md-10 > div, #guestbook .col-md-11 > div, #guestbook .col-md-12 > div {
 		height: 230px;
-		overflow: hidden;
+		overflow: auto;
 	}
 
 	
@@ -1761,6 +1757,7 @@ h6 {
 	}
 	#guestbook .border p {
 		margin-top: 1em;
+		overflow-y: scroll;
 	}
 	#guestbook .alert-success {display: none;}
 	#guestbook .alert-danger {display: none;}

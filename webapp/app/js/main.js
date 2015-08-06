@@ -453,6 +453,13 @@ $('#myTab a').click(function (e) {
                 });
             }
             
+            console.log(cena);
+            if(cena == null && ensayo == null && boda == null && civil == null && despedidaH == null && despedidaM == null) {
+                window.alert('Debes escoger algun evento');
+                error = true;
+            }
+
+
             //now when the validation is done we check if the error variable is false (no errors)
             if(error == false){
                 //disable the submit button to avoid spamming
@@ -478,7 +485,6 @@ $('#myTab a').click(function (e) {
                         $('#mail_fail').fadeIn(500);
                         $('#send_message').removeAttr('disabled').attr('value', 'Confirmar Asistencia');
                     }
-                    console.log(resp);
                 });
                 
                 // /* using the jquery's post(ajax) function and a lifesaver
